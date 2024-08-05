@@ -1,0 +1,116 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "28e402b2-295d-44e8-9704-9e59f5912f72",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "E\n"
+     ]
+    }
+   ],
+   "source": [
+    "score=30\n",
+    "if score>=90:\n",
+    "    print(\"A\")\n",
+    "elif score>=80:\n",
+    "    print(\"B\")\n",
+    "elif score>=70:\n",
+    "    print(\"C\")\n",
+    "elif score>=60:\n",
+    "    print(\"D\")\n",
+    "else:\n",
+    "    print(\"E\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "0f606715-7ad5-491b-8857-073091a20a56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "name judith\n",
+      "name william\n",
+      "name lida\n"
+     ]
+    }
+   ],
+   "source": [
+    "check =True\n",
+    "while check:\n",
+    "    name= input(\"name\")\n",
+    "    if \" lida\" in name or 'lida'in name:\n",
+    "        check= False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "23d512ab-cf65-4271-b266-393d73882d5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 3) (336681316.py, line 3)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[19], line 3\u001b[1;36m\u001b[0m\n\u001b[1;33m    name= input(\"name)\u001b[0m\n\u001b[1;37m                ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m unterminated string literal (detected at line 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "check = true\n",
+    "while check\n",
+    "name= input(\"name)\n",
+    "if lida in name or'william' in name\n",
+    "    check = False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e4baa1ff-722d-4217-bcc0-e3384590b9d0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6520fadb-9c6f-4f9e-a974-7195ecb0bd66",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
